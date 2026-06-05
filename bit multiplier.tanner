@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design {bit multiplier} -cell HALFADDER -type schematic -newwindow
+window move -left 0 -top 0 -width 1170 -height 385 -undock -max 
+window fit -x0 -19920 -y0 17265 -x1 -9133 -y1 22446 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
